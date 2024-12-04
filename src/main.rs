@@ -72,7 +72,7 @@ pub mod questions {
         /// b) Only if the data stored in the account is zeroed out.
         /// c) This can be done only to accounts owned by the System Program.
         /// d) Account owner is able to subtract lamports from the account.
-        'b'
+        'd'
     }
     pub fn question_9() -> char {
         /// How can you prevent the same PDA from being used for multiple accounts,
